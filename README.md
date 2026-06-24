@@ -37,7 +37,7 @@ Tôi đã hoàn thành xuất sắc tất cả các điều kiện hoàn thành 
   - **Pull Request #3 (Revert):** Pull Request phục vụ mục đích hoàn tác, đảo ngược thay đổi của PR #2.
 
 ### 3.4. Xử lý Xung đột dữ liệu (Git Conflict)
-- **Tình huống mô tả:** Khi gộp nhánh phụ vào nhánh chính tại Pull Request #2, hệ thống phát hiện cả 2 nhánh cùng chỉnh sửa tệp `ĐỌC CHO TÔI.md` với nội dung mâu thuẫn, dẫn đến việc không thể tự động gộp (Can't automatically merge).
+- **Tình huống mô tả:** Khi gộp nhánh phụ vào nhánh chính tại Pull Request #2, hệ thống phát hiện cả 2 nhánh cùng chỉnh sửa tệp `README.md` với nội dung mâu thuẫn, dẫn đến việc không thể tự động gộp (Can't automatically merge).
 - **Cách xử lý:** Tôi đã kích hoạt trình chỉnh sửa web **Resolve conflicts**, tiến hành xóa bỏ các thẻ đánh dấu xung đột (`<<<<<<<`, `=======`, `>>>>>>>`), giữ lại nội dung đồng nhất: *"Giải quyết xung đột: Thống nhất nội dung giữa nhánh chính và nhánh xung đột."* và tiến hành commit để hoàn thành việc gộp.
 
 ### 3.5. Xử lý Hoàn tác mã nguồn (Git Revert / Rollback)
